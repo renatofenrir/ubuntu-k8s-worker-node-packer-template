@@ -21,3 +21,6 @@ packer plugins install github.com/hashicorp/proxmox
 More info: https://developer.hashicorp.com/packer/integrations/hashicorp/proxmox
 
 Tested with packer version 1.9.4
+
+On the scripts/install-deps.sh bash script, make sure to ADD YOUR OWN PUBLIC KEYS so that you can ssh into the VMs that are gonna
+be cloned from this template without any issues in the future.
